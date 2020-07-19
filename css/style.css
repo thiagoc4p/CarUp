@@ -88,6 +88,11 @@ p {
     box-shadow: inset -0em -0.3em #fff;
 }
 
+.header_menu ul li a.menu_ativo {
+    color: #fff;
+    box-shadow: inset -0em -0.3em #fff;
+}
+
 /* Introdução */
 
 .introducao {
@@ -98,7 +103,6 @@ p {
     text-align: center;
     margin-top: 0px;
     padding-top: 120px;
-    
 }
 
 .introducao h1 {
@@ -107,6 +111,38 @@ p {
     font-weight: bold;
     text-transform: uppercase;
     margin-bottom: 55px;
+}
+
+/* Introducao interna */
+
+.introducao-interna {
+    width: 100%;
+    margin-top: 86px;
+    height: 160px;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+}
+
+.introducao-interna h1 {
+    text-transform: uppercase;
+    font-size: 36px;
+    margin-top: 40px;
+}
+
+.introducao-interna h1::after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: #fff;
+    margin: 5px auto;
+}
+
+.introducao-interna p {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .quote-externo {

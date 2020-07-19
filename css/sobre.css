@@ -1,0 +1,44 @@
+.interna_sobre {
+    background: url("../img/bg-sobre.jpg") no-repeat center;
+    background-size: cover;
+}
+
+.missao_sobre {
+    padding: 20px 0;
+}
+
+.missao_sobre h2 {
+    padding: 10px 0;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.missao_sobre h2:after{
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: #000;
+    margin-top: 5px;
+}
+
+.missao_sobre p {
+    font-family: monospace;
+    font-size: 14px;
+    max-width: 500px;
+    line-height: 1.3em;
+}
+
+.missao_sobre ul li {
+    padding-bottom: 10px;
+    font-family: monospace;
+    font-size: 14px;
+    line-height: 1.3em;
+    max-width: 500px;    
+}
+
+.foto-oficina {
+    text-align: center;
+    padding-top: 30px;
+}
