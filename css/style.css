@@ -1,0 +1,332 @@
+/* Estilos gerais */
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    /* font-family: Georgia, 'Times New Roman', Times, serif; */
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.btn {
+    border: 3px solid #fa7800;
+    padding: 10px 20px;
+    color: #fa7800;
+    line-height: 20px;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    font-weight: bold;
+}
+
+.btn:hover {
+    color: #fff;
+    border-color: #fff;
+
+}
+
+.btn.btn-branco:hover {
+    color: #000;
+    border-color: #000;
+}
+
+.subtitulo {
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 30px;
+    letter-spacing: 0.2em;
+    color: #000;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.subtitulo:after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: #000;
+    margin: 10px auto;
+}
+
+/* Header */
+
+.header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: #fa7800;
+    padding: 15px 0;
+    z-index: 10;
+}
+
+.header_menu {
+    margin-top: 20px;
+    text-align: right;
+}
+
+.header_menu ul li{
+    padding: 0 auto;
+    display: inline-block;
+    margin-left: 25px;
+}
+
+.header_menu ul li a{
+    color: #000;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    line-height: 20px;
+    padding: 20px 0;
+}
+
+.header_menu ul li a:hover{
+    color: #fff;
+    box-shadow: inset -0em -0.3em #fff;
+}
+
+/* Introdução */
+
+.introducao {
+    width: 100%;
+    height: 500px;
+    background: url("../img/bg.jpg") no-repeat center;
+    background-size: cover;
+    text-align: center;
+    margin-top: 0px;
+    padding-top: 120px;
+    
+}
+
+.introducao h1 {
+    font-size: 48px;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 55px;
+}
+
+.quote-externo {
+    max-width: 400px;
+    margin: 0 auto;
+    color: #fff;
+    margin-bottom: 60px;
+    
+}
+
+.quote-externo p {
+    max-width: 390px;
+    font-style: italic;
+    font-size: 16px;
+    font-weight: bold;
+    /* background-color: rgba(0, 0, 0, 0.3); */
+}
+
+.quote-externo p:before, .quote-externo p:after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: #fff;
+    margin: 10px auto;
+}
+
+.quote-externo cite {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+/* Carros */
+
+.carros {
+    padding: 60px 0;  
+
+}
+
+.carros_lista li {
+    background: #fa7800;
+    text-align: center;
+}
+
+.carros_lista li h3 {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em ;
+}
+
+.carros_lista li h3:after{
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: #000;
+    margin: 2px auto;
+}
+
+.carros_lista li p {
+    padding: 10px 20px 20px 20px;
+}
+
+.carros_icon {
+    width: 100%;
+    background: #6d6d6d;
+    padding: 20px;
+    text-align: center;
+}
+
+.call {
+    text-align: center;
+    padding-top: 30px;
+    clear: both;
+    font-weight: bold;
+}
+
+.call p {
+    margin-bottom: 20px;
+}
+
+/* Portfolio */
+
+.portfolio {
+    width: 100%;
+    background: #000;
+    padding: 40px 0;
+}
+
+.portfolio .subtitulo {
+    color: #fa7800;
+}
+
+
+.portfolio .subtitulo:after {
+   background: #fa7800;
+}
+
+.portfolio-itens li:last-child {
+    margin-top: 20px;
+
+}
+
+.portfolio .call p {
+    color: #fff;
+}
+
+/* Qualidade */
+
+.qualidade {
+    padding: 60px 0;
+}
+
+.qualidade li {
+    text-align: center;
+    margin-top: 30px;
+    padding: 0 20px;
+}
+
+.qualidade h3:after {
+    content: "";
+    display: block;
+    width: 130px;
+    height: 1px;
+    background: #000;
+    margin: 10px auto;
+}
+
+.qualidade p {
+    margin-top: 20px;
+}
+
+.qualidade h3 {
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em ;
+}
+
+.qualidade li img {
+    margin: 0 auto;
+}
+
+/* Quebra */
+
+.quebra {
+     width: 100%;
+     height: 280px;
+     background: black;
+     background: url("../img/bg-footer.jpg") no-repeat center;
+     text-align: center;  
+     padding-top: 40px; 
+}
+
+.quebra .quote-externo p {
+    background: rgba(0, 0, 0, 0.50);
+}
+
+/* Footer */
+
+.footer {
+    width: 100%;
+    height: 180px;
+    background: #000;
+    color: #fff;
+}
+
+.footer h3 {
+    color: #fa7800;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    padding: 20px 0;
+}
+.footer h3:after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: #fa7800;
+    margin-top: 10px;
+}
+
+.footer-historia {
+    padding-right: 60px;
+    line-height: 25px;
+}
+
+.footer-contato ul li {
+    line-height: 25px;
+}
+
+.footer-sociais ul li {
+    display: inline-block;
+}
+
+.footer ul li img {
+    margin-left: 10px;
+    padding-bottom: 20px;
+    width: 50px;
+}
+
+.footer ul li img:hover {
+    box-shadow: inset -0em -0.3em #fa7800;
+}
+
+.copy {
+    width: 100%;
+    height: 40px;
+    background: #fa7800;
+}
+
+.copy p {
+    text-align: center;
+    margin-top: 10px;
+    font-weight: bold;
+}
