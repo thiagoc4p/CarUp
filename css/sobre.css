@@ -1,15 +1,13 @@
 .interna_sobre {
+    width: 100%;
+    height: 160px;
     background: url("../img/bg-sobre.jpg") no-repeat center;
     background-size: cover;
 }
 
-.missao_sobre {
-    padding: 20px 0;
-}
-
 .missao_sobre h2 {
-    padding: 10px 0;
-    font-size: 20px;
+    padding: 20px 0;
+    font-size: 22px;
     font-weight: bold;
     text-transform: uppercase;
 }
@@ -27,7 +25,7 @@
     font-family: monospace;
     font-size: 14px;
     max-width: 500px;
-    line-height: 1.3em;
+    margin-bottom: 15px;
 }
 
 .missao_sobre ul li {

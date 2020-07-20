@@ -346,6 +346,7 @@ p {
 }
 
 .footer ul li img {
+    width: 100%;
     margin-left: 10px;
     padding-bottom: 20px;
     width: 50px;
