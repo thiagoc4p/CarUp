@@ -30,7 +30,7 @@
 
 .missao_sobre ul li {
     padding-bottom: 10px;
-    font-family: monospace;
+    /* font-family: monospace; */
     font-size: 14px;
     line-height: 1.3em;
     max-width: 500px;    
